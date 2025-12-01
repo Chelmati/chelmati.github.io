@@ -1,0 +1,69 @@
+
+body {
+    background-color: #FAF3E1;
+    height: 100%;
+    width: 100vw;
+}
+
+button {
+    background-color: #FF6D1F;
+    color: #F5E7C6;
+    font-size: larger;
+}
+
+.mainarea {
+    background-color: #F5E7C6;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+
+    margin: 5rem auto;
+}
+
+#hero {
+    text-align: center;
+}
+
+#submit {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.maintimer {
+    text-align: center;
+    font-size: xx-large;
+    color: #FF6D1F;
+    display: flex;
+}
+
+.buttonstack {
+    display: flex;
+    gap: 2rem;
+}
+
+.buttonstack button {
+    border-radius: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.changer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.total {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

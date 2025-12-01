@@ -1,1 +1,45 @@
-<h1> Test Page </h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div>
+        <h1 id="hero">Count Down Timer</h1>
+    </div>
+
+    <div class="mainarea">
+        <div class="maintimer">
+            <h1 id="minutes">1</h1>
+            <h1>:</h1>
+            <h1 id="seconds">00</h1>
+        </div>
+
+        <div class="buttonstack">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+
+
+    <div class="changer">
+        <input type="number" id="mins" placeholder="Enter your time in minutes"/>
+        <button id="submit"><p>Submit</p></button>
+    </div>
+
+    <div class="total">
+        <h1>Total Time: </h1>
+        <h1>________</h1>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
